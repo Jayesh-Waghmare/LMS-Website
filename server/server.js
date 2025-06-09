@@ -16,6 +16,8 @@ const app = express();
 await connectDB()
 await connectCloudinary()
 
+app.post('/stripe', express.raw({type: 'application/json'}), stripeWebhooks);
+
 // Middlewares
 app.use(cors());
 app.use(express.json());
@@ -27,8 +29,6 @@ app.post('/clerk', clerkWebhooks);
 app.use('/api/educator', educatorRouter);
 app.use('/api/course', courseRouter);
 app.use('/api/user', userRouter);
-app.post('/stripe', express.raw({type: 'application/json'}), stripeWebhooks);
-
 
 
 // Port
