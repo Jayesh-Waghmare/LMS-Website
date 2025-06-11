@@ -5,7 +5,7 @@ A full-stack Learning Management System built with React, Node.js, Express, and 
 ## 🌐 Live URLs
 
 - <strong>Frontend</strong>: <a href="https://lms-frontend-khaki-eight.vercel.app/">https://lms-frontend-khaki-eight.vercel.app/</a><br>
-- <strong>Backend (API Health)</strong>: <a href="https://lms-backend-two-lime.vercel.app/">https://lms-backend-two-lime.vercel.app/</a>
+- <strong>Backend</strong>: <a href="https://lms-backend-two-lime.vercel.app/">https://lms-backend-two-lime.vercel.app/</a>
 
 **⚠️ Note: The backend must be live for the app to function correctly. It handles course and lecture data, video streaming, progress tracking, and secure API access.**
 
