@@ -1,6 +1,6 @@
 ### Learning Management System Website:
 
-A full-stack Learning Management System built with React, Node.js, Express, and MongoDB (MERN Stack), designed for seamless course creation, lecture management, and student learning — with Clerk-powered authentication.
+A full-stack Learning Management System built with React, Node.js, Express, and MongoDB (MERN Stack), designed for seamless course creation, lecture management, and student learning with Clerk-powered authentication.
 
 ## 🌐 Live URLs
 
